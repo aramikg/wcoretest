@@ -10,6 +10,7 @@
 		B0B38F4F1CF280F800161569 /* WCore.h in Headers */ = {isa = PBXBuildFile; fileRef = B0B38F4E1CF280F800161569 /* WCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B0B38F561CF280F800161569 /* WCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0B38F4B1CF280F800161569 /* WCore.framework */; };
 		B0B38F5B1CF280F800161569 /* WCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B38F5A1CF280F800161569 /* WCoreTests.swift */; };
+		B0B38F661CF2810400161569 /* WCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B38F651CF2810400161569 /* WCore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		B0B38F551CF280F800161569 /* WCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0B38F5A1CF280F800161569 /* WCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WCoreTests.swift; sourceTree = "<group>"; };
 		B0B38F5C1CF280F800161569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0B38F651CF2810400161569 /* WCore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WCore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				B0B38F4E1CF280F800161569 /* WCore.h */,
+				B0B38F651CF2810400161569 /* WCore.swift */,
 				B0B38F501CF280F800161569 /* Info.plist */,
 			);
 			path = WCore;
@@ -194,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0B38F661CF2810400161569 /* WCore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +314,7 @@
 		B0B38F601CF280F800161569 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -320,12 +325,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.whalerock.WCore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		B0B38F611CF280F800161569 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
