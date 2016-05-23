@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B0B38F4A1CF280F800161569"
+               BlueprintIdentifier = "B0147BE61CF2A4F000806EC8"
                BuildableName = "WCore.framework"
                BlueprintName = "WCore"
-               ReferencedContainer = "container:WCore.xcodeproj">
+               ReferencedContainer = "container:WCoreProject.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,26 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B0B38F541CF280F800161569"
-               BuildableName = "WCoreTests.xctest"
-               BlueprintName = "WCoreTests"
-               ReferencedContainer = "container:WCore.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B0B38F4A1CF280F800161569"
-            BuildableName = "WCore.framework"
-            BlueprintName = "WCore"
-            ReferencedContainer = "container:WCore.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -64,10 +45,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B0B38F4A1CF280F800161569"
+            BlueprintIdentifier = "B0147BE61CF2A4F000806EC8"
             BuildableName = "WCore.framework"
             BlueprintName = "WCore"
-            ReferencedContainer = "container:WCore.xcodeproj">
+            ReferencedContainer = "container:WCoreProject.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -82,10 +63,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B0B38F4A1CF280F800161569"
+            BlueprintIdentifier = "B0147BE61CF2A4F000806EC8"
             BuildableName = "WCore.framework"
             BlueprintName = "WCore"
-            ReferencedContainer = "container:WCore.xcodeproj">
+            ReferencedContainer = "container:WCoreProject.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
